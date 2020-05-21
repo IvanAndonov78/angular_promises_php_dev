@@ -1,0 +1,16 @@
+<div *ngFor="let fruit of fruits | async">
+  <span> Fruit: {{fruit.name}} </span>
+</div>
+<hr>
+<div *ngFor="let v of vegetables | async">
+  <span> Vegetable: {{v.name}} </span>
+</div>
+<hr>
+<div *ngFor="let f of flowers">
+  <span> Flower: {{f.name}} </span>
+</div>
+<hr>
+<div *ngFor="let n of nuts">
+  <span> Nuts: {{n.name}} </span>
+</div>
+
